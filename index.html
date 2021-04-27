@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Estilos en CSS</title>
+    <script src="./js/codigo.js"></script>
+</head>
+
+<body>
+    <div id="header" class="row relleno-columnas">
+        <h1>Estilos en CSS</h1>
+        <i class="fas fa-laptop-code"></i>
+    </div>
+
+    <ul>
+        <li><a href="#section-3">Estilos externos</a></li>
+        <li><a href="#section-2">Estilos internos</a></li>
+        <li><a href="#section-1">Estilos en línea</a></li>
+        <li><a href="#section-4">Vídeo explicativo</a></li>
+        <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
+    </ul>
+
+    <div id="section-4" class="row relleno columnas">
+        <h1>Vídeo explicativo</h1>
+        <iframe src="https://www.youtube.com/embed/MzEBxbFYEys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="section-1" class="row relleno-columnas">
+        <div class="column-1 relleno-columnas">
+            <h3>Estilos en línea</h3>
+            <p>Los estilos en linia son los que estan en la misma línea del texto al que queremos dar formato.</p>
+        </div>
+        <div class="column-1 gallery relleno-columnas">
+            <img src="./img/estilos en linea.PNG" alt="estilos en línea">
+        </div>
+    </div>
+
+    <div id="section-2" class="row relleno-columnas">
+        <div class="column-1 gallery relleno-columnas">
+            <img src="./img/estilos internos.PNG" alt="estilos en línea">
+        </div>
+        <div class="column-1 relleno-columnas">
+            <h3>Estilos internos</h3>
+            <p>Los estilos internos son los que se situan justamente debajo del texto al que queremos darle un formato.</p>
+        </div>
+    </div>
+
+    <div id="section-3" class="row relleno-columnas">
+        <div class="column-1 relleno-columnas">
+            <h3>Estilos externos</h3>
+            <p>Los estilos esternos son los que estan en una hoja externa al html, es decir en una hoja asociada a la actual.</p>
+        </div>
+        <div class="column-2 gallery relleno-columnas">
+            <img src="./img/estilos externos.png." alt="estilos en línea">
+        </div>
+    </div>
+
+    <div id="section-5" class="row relleno columnas">
+        <h3>Gestiona tu trabajo en Github</h3>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES" selected>Español</option>
+            <option value="CAT">Català</option>
+        </select>
+    </div>
+
+</body>

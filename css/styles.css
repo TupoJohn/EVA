@@ -1,0 +1,216 @@
+    * {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.relleno-columnas {
+    padding: 3vw;
+}
+
+#header {
+    font-size: 3.5vw;
+    color: black;
+    text-align: center;
+    padding-top: 15vw;
+    padding-bottom: 20vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    font-size: 1vw;
+    width: 100%;
+    top: 0%;
+    box-shadow: 7px 3px 3px grey;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gallery img {
+    width: 86.7%;
+    border-radius: 10px;
+    box-shadow: gray 1vw 1vw;
+}
+
+
+/*seccion 4*/
+
+#section-4 {
+    background-color: rgb(201, 201, 201);
+    padding-top: 2vw;
+}
+
+#section-4 iframe {
+    display: block;
+    width: 60vw;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-4 h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+/*seccion 1*/
+
+#section-1 {
+    background-color: rgb(201, 201, 201);
+}
+
+#section-1 p {
+    font-size: 2.5vw;
+    color: black;
+}
+
+#section-1 h3 {
+    font-size: 3vw;
+    color: red;
+}
+
+.column-1 {
+    width: 50%;
+    float: left;
+    background-color: rgb(255, 217, 217);
+}
+
+
+/*seccion 2*/
+
+#section-2 {
+    background-color: rgb(201, 201, 201);
+}
+
+#section-2 p {
+    font-size: 2.5vw;
+    color: black;
+}
+
+#section-2 h3 {
+    font-size: 3vw;
+    color: red;
+}
+
+
+/*seccion 3*/
+
+#section-3 {
+    background-color: rgb(201, 201, 201);
+}
+
+#section-3 p {
+    font-size: 2.5vw;
+    color: black;
+}
+
+#section-3 h3 {
+    font-size: 3vw;
+    color: red;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    background-color: rgb(255, 217, 217);
+}
+
+
+/*seccion 5*/
+
+#section-5 {
+    background-color: black;
+    color: white;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 700px) {
+    ul {
+        font-size: 3vw;
+    }
+    .gallery img {
+        width: 80%;
+    }
+    #section-4 {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    #section-4 iframe {
+        width: 90vw;
+        height: 60vw;
+    }
+    #section-4 h1 {
+        font-size: 6vw;
+    }
+    #section-4 iframe {
+        width: 80vw;
+    }
+    .column-1 {
+        width: 100%;
+    }
+    #section-1 p {
+        font-size: 5vw;
+    }
+    #section-1 h3 {
+        font-size: 6vw;
+    }
+    .column-2 {
+        width: 100%;
+    }
+    #section-2 p {
+        font-size: 5vw;
+    }
+    #section-2 h3 {
+        font-size: 6vw;
+    }
+    #section-3 p {
+        font-size: 5vw;
+    }
+    #section-3 h3 {
+        font-size: 6vw;
+    }
+    #section-5 {
+        font-size: 4vw;
+    }
